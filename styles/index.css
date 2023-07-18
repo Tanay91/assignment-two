@@ -220,13 +220,17 @@ li a{
     .banner-image{
         width: 100%;
     }
+    .online-section{
+        flex-direction: column;
+    }
     
     
     
     
 }
 /* medium devices */
-@media  screen and (min-width:577px) and (max-width:992px) {
+@media  screen and (min-width:577px) and (max-width:992px) 
+{
     .banner-container{
         justify-content: center;
         align-items: center;
@@ -235,4 +239,10 @@ li a{
     .banner-text{
         margin-left: 0px;
     }
+    .online-section{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 35%;
 }
+}
+    

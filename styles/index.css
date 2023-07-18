@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* nav start */
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -23,7 +24,7 @@ ul{
     
 }
 ul li{
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 600;
     padding: 20px;
     list-style: none;
@@ -54,6 +55,75 @@ li a{
 .fa-youtube{
     color: red;
 }
+/* nav end */
+
+/* banner starts */
+.banner-container{
+    min-height: 100px;
+    display: flex;
+
+}
+.banner-text{
+    min-height: 50px;
+    width: 50%;
+    background-image: url(../images/Group\ 14.png);
+    
+    
+
+}
+.banner-image{
+    min-height: 50px;
+    width: 50%;
+}
+.banner-image>img{
+    width: 100%;
+}
+.banner-title{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+.title-two{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.banner-text p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 320px;
+    margin-bottom: 10px;
+    
+}
+.btn1{
+    padding: 20px 50px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    gap: 5px;
+    margin-left: 300px;
+    color: white;
+    border: none;
+}
+.btn2{
+    padding: 20px 50px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: white;
+    border: none;
+    
+
+}
+/* mobile devices */
 @media screen and (max-width:576px) {
     .nav-bar ,ul{
         flex-direction: column;
@@ -75,6 +145,7 @@ li a{
     }
     
 }
+/* medium devices */
 @media  screen and (min-width:577px) and (max-width:992px) {
     
 }

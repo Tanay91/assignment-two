@@ -188,6 +188,43 @@ li a{
 }
 /* online ends */
 
+/* play section start */
+.play-section{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.play-content{
+    min-height: 200px;
+    width: 50%;
+    margin-top: -300px;
+}
+.play-img{
+    min-height: 200px;
+    width: 50%;
+}
+.play-title{
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.play-description{
+    font-size: 20px;
+    text-align: center;
+}
+.play-img{
+    /* position: relative; */
+}
+.play-img2 img{
+    width: 350px;
+    position: relative;
+    bottom: 300px;
+    right: 150px;
+}
+/* play section end */
+
 
 /* mobile devices */
 @media screen and (max-width:576px) {

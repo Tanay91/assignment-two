@@ -79,7 +79,6 @@ li a{
 .banner-title{
     color: #0B0223;
     text-align: center;
-    font-family: Work Sans;
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
@@ -87,7 +86,6 @@ li a{
 }
 .title-two{
     text-align: center;
-    font-family: Work Sans;
     font-size: 95px;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -121,6 +119,9 @@ li a{
     
 
 }
+/* banner ends */
+
+
 /* mobile devices */
 @media screen and (max-width:576px) {
     .nav-bar ,ul{

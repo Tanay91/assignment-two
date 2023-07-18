@@ -74,7 +74,7 @@ li a{
     width: 50%;
 }
 .banner-image>img{
-    width: 70%;
+    width: 71%;
 }
 .banner-title{
     color: #0B0223;
@@ -97,7 +97,7 @@ li a{
 .banner-text p{
     font-size: 20px;
     margin-top: 10px;
-    margin-left: 320px;
+    margin-left: 319px;
     margin-bottom: 10px;
     
 }
@@ -106,7 +106,7 @@ li a{
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     gap: 5px;
-    margin-left: 300px;
+    margin-left: 299px;
     color: white;
     border: none;
 }

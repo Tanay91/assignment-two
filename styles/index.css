@@ -59,12 +59,10 @@ li a{
 
 /* banner starts */
 .banner-container{
-    min-height: 100px;
     display: flex;
 
 }
 .banner-text{
-    min-height: 50px;
     width: 50%;
     background-image: url(../images/Group\ 14.png);
     
@@ -76,7 +74,7 @@ li a{
     width: 50%;
 }
 .banner-image>img{
-    width: 100%;
+    width: 70%;
 }
 .banner-title{
     color: #0B0223;
@@ -143,9 +141,40 @@ li a{
         margin-right: 50px;
 
     }
+    .banner-container{
+        flex-direction:column-reverse;
+    }
+    .banner-text{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .banner-text p{
+        text-align: center;
+        margin-left:0px;
+    }
+    .btn1{
+        margin-left:0px ;
+        
+    }
+    
     
 }
 /* medium devices */
 @media  screen and (min-width:577px) and (max-width:992px) {
-    
+    .banner-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-text p{
+        margin-left: 0px;
+    }
+    .btn1{
+        margin-left: 0px;
+    }
+    .banner-text{
+        text-align: center;
+    }
 }

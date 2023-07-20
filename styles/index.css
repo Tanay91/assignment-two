@@ -69,7 +69,10 @@ li a{
 .banner-text{
     width: 50%;
     background-image: url(../images/Group\ 14.png);
+    background-position: center;
+    background-size: cover;
     margin-left: 300px;
+    
     
     
 
@@ -77,6 +80,7 @@ li a{
 .banner-image{
     min-height: 50px;
     width: 50%;
+    
 }
 .banner-image>img{
     width: 71%;
@@ -131,6 +135,8 @@ li a{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    
+    
 }
 .online-title{
     text-align: center;
@@ -148,6 +154,7 @@ li a{
 .online-img{
     width: 350px;
     position: relative;
+    margin: 20px;
 }
 .online-img >img{
     width: 100%;
@@ -240,7 +247,7 @@ li a{
     align-items: center;
     border-radius: 50px;
     background: #FFF;
-    width: 300px;
+    width: 200px;
     height: 80px;
     padding: 10px;
     justify-content: center;
